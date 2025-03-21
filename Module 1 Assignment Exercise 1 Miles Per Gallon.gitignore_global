@@ -1,0 +1,30 @@
+Start
+
+# to compute the number of miles per gallon you get in your car
+
+define miles = input "Enter miles from speedometer"
+define gallons = input "Enter gallons of gas used on trip"
+define miles_per_gallon = miles/gallons
+
+if miles OR gallons = 0 then
+    print "You must enter a value greater than 0."
+else
+    print "Your automobile's is: " + miles_per_gallon + "mpg"
+
+End
+
+------------------------------------------------------------------------------------------------------
+
+# DOES THIS ALSO WORK?????
+
+Start
+
+define miles = input "Enter miles from speedometer"
+define gallons = input "Enter gallons of gas used on trip"
+
+if miles OR gallons = 0 then
+    print "You must enter a value greater than 0."
+else
+    print "Your automobile's is: " + miles/gallons + "mpg"
+
+End
