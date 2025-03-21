@@ -1,0 +1,21 @@
+#Exercise 3
+# This program accepts a user's monthly pay and rent, utilities, and grocery bills
+# and displays the amount available for discretionary spending (which might be negative)
+# Your program should output the pay and the total bills as well as the remaining discretionary amount
+
+Start
+
+define rent = input "Enter your rent per month"
+define utilitites_bill = input "Enter your utilities bill per month"
+define grocery_bills = input "Enter your grocery bills per month"
+define total_income = input "Enter your total income per month"
+
+input rent
+input utilities_bill
+input grocery_bills
+input total income
+discretionary_amount = total_income - (rent + utilities_bill + grocery_bills)
+
+print "Your discretionary amount is: " + discretionary_amount
+
+End
