@@ -4,6 +4,7 @@
 Start
 
 define month = 30
+define rent = input "Enter your monthly rent"
 
 input rent
 daily_rent = rent/month
