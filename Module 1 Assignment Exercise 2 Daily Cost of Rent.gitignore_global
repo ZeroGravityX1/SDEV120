@@ -1,0 +1,12 @@
+# Exercise 2
+# This pseudocode is intended to describe computing the daily cost of your rent in a 30-day month
+
+Start
+
+define month = 30
+
+input rent
+daily_rent = rent/month
+print "Your daily rent is: " + daily_rent
+
+End
