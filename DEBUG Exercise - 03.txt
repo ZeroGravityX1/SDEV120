@@ -13,7 +13,7 @@ start
       output "Enter second score "
       input secondTest
       average = (firstTest + secondTest) / 2
-      ouput "Average is ", average
+      output "Average is ", average
       if average >= PASSING then
          output "Pass"
       else
